@@ -13,19 +13,43 @@
   }
 }
 
+.Style1
+{
+  background-color: aqua;
+  color: palevioletred;
+}
+
+.sun{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 85px;
+  length: 85px;
+  background: skyblue;
+  border-radius: 360px;
+  opacity: 1;
+  animation: sun 10s 0s linear infinite;
+}
+
+.snowflake {
+  stroke: blue;
+  stroke-width: 1;
+}
+
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-color:cornflowerblue;
+  min-height: 5vh;
+  display: ruby-base-container;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 5vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb6173;
 }
 
 @keyframes App-logo-spin {
