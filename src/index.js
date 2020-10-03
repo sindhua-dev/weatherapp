@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import CoreClass from './Weather';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CoreClass />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('own app')
 );
 
 // If you want your app to work offline and load faster, you can change
