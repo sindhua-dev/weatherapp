@@ -11,9 +11,9 @@ const TopPageFn = () =>
                 My Weather App
             </h1>
 
-            <h9>
+            <h3>
                 Know the weather in your locality using this App
-            </h9>
+            </h3>
         </div>
     )
 }
